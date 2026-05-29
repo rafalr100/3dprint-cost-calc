@@ -4,10 +4,9 @@ Lekkie, samodzielne narzędzie webowe do wyceny wydruków FDM. Cały kod to jede
 
 > Wpisujesz parametry druku, wybierasz drukarkę z listy, a narzędzie na żywo rozkłada cenę na czynniki pierwsze: materiał, prąd, amortyzację sprzętu, maintenance, robociznę i marżę — w PLN lub EUR po aktualnym kursie ECB.
 
-## Demo
+## Demo na żywo
 
-Po włączeniu GitHub Pages narzędzie będzie dostępne pod:
-`https://rafalr100.github.io/filamentcost/`
+**→ [rafalr100.github.io/filamentcost](https://rafalr100.github.io/filamentcost/)**
 
 ## Dlaczego to powstało
 
@@ -79,11 +78,6 @@ cd filamentcost
 python3 -m http.server 8000   # następnie http://localhost:8000
 ```
 
-## Hosting na GitHub Pages
-
-1. Wejdź w **Settings → Pages**.
-2. W sekcji *Build and deployment* ustaw źródło na gałąź `main`, katalog `/ (root)`.
-3. Po chwili narzędzie będzie dostępne pod `https://rafalr100.github.io/filamentcost/`.
 
 ## Konfiguracja matrycy drukarek
 
