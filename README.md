@@ -1,8 +1,8 @@
-# FilamentCost — kalkulator wyceny druku 3D
+# 3D Print Cost Calc — kalkulator wyceny druku 3D
 
 Policz, ile *naprawdę* kosztuje wydruk 3D — nie tylko filament, ale też prąd, amortyzację drukarki, eksploatację i marżę. Wszystko w jednym pliku HTML, bez instalacji, w przeglądarce.
 
-**→ [Otwórz narzędzie na żywo](https://rafalr100.github.io/filamentcost/)**
+**→ [Otwórz narzędzie na żywo](https://rafalr100.github.io/3dprint-cost-calc/)**
 
 ![Zrzut ekranu narzędzia FilamentCost](screenshot.png)
 
@@ -49,8 +49,8 @@ Domyślne ceny i pobór mocy drukarek są **orientacyjne** — ceny rynkowe się
 Nie wymaga niczego poza przeglądarką:
 
 ```bash
-git clone https://github.com/rafalr100/filamentcost.git
-cd filamentcost
+git clone https://github.com/rafalr100/3dprint-cost-calc.git
+cd 3dprint-cost-calc
 python3 -m http.server 8000   # następnie otwórz http://localhost:8000
 ```
 
